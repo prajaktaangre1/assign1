@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" />
+</head>
+
+<body>
+    <!-- header------------------------------------------------------------- -->
+    <header class="main-header">Free Standard Shipping on orders over $99.99</header>
+    <div class="bgGray">
+        <div class="topnav" id="myTopnav">
+
+            <div class="col-md-4 col-sm-6">
+                <a href="#news" class="d-none">About</a>
+                <a href="#contact">consultation</a>
+            </div>
+            <div class="col-md-4 col-sm-0">
+                <div class="dropdown">
+                    <a href="#contact" class="Sooth-txt d-none">sooth</a>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <a href="#about"><i class='fa fa-search'></i></a>
+                <a href="#about">cart</a>
+                <a href="#about">login</a>
+
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+            </div>
+        </div>
+        <div class="mid-header " id="myTopnav">
+            <!-- <ul>
+            <div class="row">
+            <div class="col-md-4">
+            <li class="">About</li>
+            <li>consultation</li>
+        </div>
+        <div class="col-md-4">
+            <li class="Sooth-txt">sooth</li>
+            </div>
+            <div class="col-md-4">
+            <li class="">search</li>
+            <li>cart</li>
+            <li>login</li>
+            </div>
+        </div>
+        </ul> -->
+        </div>
+        <div class="last-header">
+            <div class="col-md-3"></div>
+            <div class="col-md-6 d-none">
+                <ul>
+                    <li>Acne</li>
+                    <li>sun</li>
+                    <li>Ezcema</li>
+                    <li>Psoriasis</li>
+                    <li>Vitiligio</li>
+                </ul>
+
+            </div>
+            <div class="col-md-3"></div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 order-sm-2">
+                <button class="new-button">New</button>
+                <h3 class="gray-heading">All natural <br> skin remedes</h3>
+                <p>A healthier you from the inside out. We’ve sourced <br>the cleanest ingredients to create a line of
+                    clean
+                    skin<br> care treatments that leave you feeling your best</p>
+                <button class="shop-button">Shop products</button>
+                <div class="img-bottl2">
+                    <img src="ingred2.png" alt="" width="100%">
+                </div>
+                <div class="img-bottl">
+                    <img src="bottle3.png" alt="">
+                </div>
+
+
+            </div>
+            <div class="col-md-6 bgGray-img order-sm-1">
+            </div>
+        </div>
+    </div>
+    <!-- banner---------------------------------------------------------------------- -->
+    <div class="banner">
+        <div class="banner-sub">
+            <h6 class="b-h6">Solutions for all skin health</h6>
+            <p class="ba-p">Explore our innovative skincare products</p>
+        </div>
+        <div class="row banner-midd">
+            <div class="col-md-6">
+                <p> Most Popular</p>
+            </div>
+            <div class="col-md-6">
+                <p> Shop all products</p>
+            </div>
+        </div>
+        <!-- second-banner----------------------------------------------------------- -->
+        <div class="row second-banner">
+            <div class="col-sm-6 col-md-3 firstdiv">
+                <img src="bottle1.png" alt="" class="bottle1" width="100%">
+                <h6>Acne Cream</h6>
+                <p>All Natural Ingredients.</p>
+                <p>$24.99</p>
+                <button class="cart-btn">Add to cart</button>
+            </div>
+            <div class=" col-sm-6 col-md-3 firstdiv">
+                <img src="bottle2.png" alt="" class="bottle2" width="100%">
+                <h6>Vitiligio Solution</h6>
+                <p>All Natural Ingredients.</p>
+                <p>$24.99</p>
+                <button class="cart-btn">Add to cart</button>
+            </div>
+            <div class="col-sm-6 col-md-3 firstdiv">
+                <img src="bottle3.png" alt="" width="100%">
+                <h6>Ezcema Cream</h6>
+                <p>All Natural Ingredients.</p>
+                <p>$24.99</p>
+                <button class="cart-btn">Add to cart</button>
+            </div>
+            <div class="col-sm-6 col-md-3 secondbttl">
+                <img src="bottle.png" alt="" class="bottle2" width="100%">
+                <h6>Sunburn Ointment</h6>
+                <p>All Natural Ingredients.</p>
+                <p>$24.99</p>
+                <button class="cart-btn">Add</button>
+            </div>
+        </div>
+    </div>
+    <!-- man-banner -------------------------------------------------------------------->
+    <div class="container-fluid">
+        <div class="row man-banner">
+            <div class="col-12 col-md-6 bg-green">
+                <h4>Clean products that <br>deliver better solutions</h4>
+                <p>A healthier you from the inside out. We’ve sourced the<br> cleanest ingredients to create a line of
+                    clean skin care <br>treatments that leave you feeling your best</p>
+                <button class="shop-btn">shop more</button>
+            </div>
+            <div class="col-12 col-md-6">
+                <img src="man.png" alt="" class="man-img">
+            </div>
+        </div>
+    </div>
+    <div class="backpray">
+        <div class="row top-rated-info">
+            <div class="col-md-6">
+                Top rated
+            </div>
+            <div class="col-md-6 right">
+                Shop all products
+            </div>
+        </div>
+        <div class="row bottles">
+            <div class="col-md-3">
+                <img src="bottle.png" alt="" class="">
+                <h6>Psoriasis Cream</h6>
+                <p>All Natural Ingredients.</p>
+                <p>$24.99</p>
+                <button class="cart-btn"><i class="fa-solid fa-bookmark"></i> Add to cart</button>
+            </div>
+            <div class="col-md-3">
+                <img src="bottle-img.png" alt="" class="">
+                <h6>Psoriasis Cream</h6>
+                <p>All Natural Ingredients.</p>
+                <p>$24.99</p>
+                <button class="cart-btn"><i class="fa-solid fa-bookmark"></i> Add to cart</button>
+            </div>
+            <div class="col-md-3">
+                <img src="bottle4.png" alt="" class="">
+                <h6>Psoriasis Cream</h6>
+                <p>All Natural Ingredients.</p>
+                <p>$24.99</p>
+                <button class="cart-btn"><i class="fa-solid fa-bookmark"></i> Add to cart</button>
+            </div>
+            <div class="col-md-3">
+                <img src="bottle-5.png" alt="" class="">
+                <h6>Psoriasis Cream</h6>
+                <p>All Natural Ingredients.</p>
+                <p>$24.99</p>
+                <button class="cart-btn"><i class="fa-solid fa-bookmark"></i> Add to cart</button>
+            </div>
+        </div>
+        <!-- bottles------------------------------------------------------------------------- -->
+        <div class="row bottles">
+            <div class="col-md-3">
+                <img src="bottle2.png" alt="" class="drop">
+                <h6>Psoriasis Cream</h6>
+                <p>All Natural Ingredients.</p>
+                <p>$24.99</p>
+                <button class="cart-btn"><i class="fa-solid fa-bookmark"></i> Add to cart</button>
+            </div>
+            <div class="col-md-3">
+                <img src="bottle6.png" alt="" class="">
+                <h6>Psoriasis Cream</h6>
+                <p>All Natural Ingredients.</p>
+                <p>$24.99</p>
+                <button class="cart-btn"><i class="fa-solid fa-bookmark"></i> Add to cart</button>
+            </div>
+            <div class="col-md-3">
+                <img src="cream.png" alt="" class="">
+                <h6>Psoriasis Cream</h6>
+                <p>All Natural Ingredients.</p>
+                <p>$24.99</p>
+                <button class="cart-btn"><i class="fa-solid fa-bookmark"></i> Add to cart</button>
+            </div>
+            <div class="col-md-3">
+                <img src="dropper.png" alt="" class="">
+                <h6>Psoriasis Cream</h6>
+                <p>All Natural Ingredients.</p>
+                <p>$24.99</p>
+                <button class="cart-btn"><i class="fa-solid fa-bookmark"></i> Add to cart</button>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- hand-banner--------------------------------------------------------------------------- -->
+    <div class="row hand-banner">
+        <div class="col-md-6">
+            <img src="hand1.png" alt="" class="hand1">
+        </div>
+        <div class="col-md-6 bg-pink">
+            <h4>All Natural Ingredients.</h4>
+            <p>A healthier you from the inside out. We’ve sourced the cleanest<br> ingredients to create a line of clean
+                skin care treatments that<br> leave you feeling your best
+
+            </p>
+            <button class="shop-more-btn">shop more</button>
+        </div>
+
+    </div>
+    <div class="backpray">
+        <div class="row top-rated-info">
+            <div class="col-md-6">
+                Recommended
+            </div>
+            <div class="col-md-6 right">
+                Shop all products
+            </div>
+        </div>
+        <div class="row bottles">
+            <div class="col-md-3">
+                <img src="bottle.png" alt="" class="">
+                <h6>Psoriasis Cream</h6>
+                <p>All Natural Ingredients.</p>
+                <p>$24.99</p>
+                <button class="cart-btn">Add to cart</button>
+            </div>
+            <div class="col-md-3">
+                <img src="bottle-img.png" alt="" class="bam-img">
+                <h6>Sunburn Balm</h6>
+                <p>All Natural Ingredients.</p>
+                <p>$24.99</p>
+                <button class="cart-btn">Add to cart</button>
+            </div>
+            <div class="col-md-3">
+                <img src="two-bottls.png" alt="" class="twobtls">
+                <h6>Psoriasis Cream</h6>
+                <p>All Natural Ingredients.</p>
+                <p>$24.99</p>
+                <button class="cart-btn">Add to cart</button>
+            </div>
+            <div class="col-md-3">
+                <img src="pink-cream.png" alt="" class="twobtls">
+                <h6>Vitiligio Treatment</h6>
+                <p>All Natural Ingredients.</p>
+                <p>$24.99</p>
+                <button class="cart-btn">Add to cart</button>
+            </div>
+        </div>
+        <!-- ingreds/ ------------------------------------------------------------------- -->
+        <div class="center">
+            <h4>We use the best ingredients</h4>
+            <p>Explore our innovative skincare products</p>
+            <div class="row ingredes">
+                <div class="col-md-4 ">
+                    <img src="1.png" alt="" class="ingred2">
+                    <h5>Cacao</h5>
+                    <h6>Lorem ipsum dolar et al</h6>
+                </div>
+                <div class="col-md-4 ">
+                    <img src="2.png" alt="" class="ingred2">
+                    <h5>Honey</h5>
+                    <h6>Lorem ipsum dolar et al</h6>
+                </div>
+                <div class="col-md-4 ">
+                    <img src="3.png" alt="" class="ingred2">
+                    <h5>Mint</h5>
+                    <h6>Lorem ipsum dolar et al</h6>
+                </div>
+            </div>
+            <div class="row ingredes">
+                <div class="col-md-4 ">
+                    <img src="4.png" alt="" class="ingred1">
+                    <h5>Cacao</h5>
+                    <h6>Lorem ipsum dolar et al</h6>
+                </div>
+                <div class="col-md-4 ">
+                    <img src="5.png" alt="" class="ingred1">
+                    <h5>Honey</h5>
+                    <h6>Lorem ipsum dolar et al</h6>
+                </div>
+                <div class="col-md-4 ">
+                    <img src="6.png" alt="" class="ingred1">
+                    <h5>Mint</h5>
+                    <h6>Lorem ipsum dolar et al</h6>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- blue-baner ----------------------------------------------------------------------------->
+    <div class="bg-blue-main">
+
+        <div class="row bg-blue">
+            <div class="col-md-4 ">
+                <i class="fa fa-home"></i>
+                <h5>We’re offering new ways to shop.</h5>
+                <h6>Store locator</h6>
+            </div>
+            <div class="col-md-4 ">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <h5>Buy online, pickup in store</h5>
+                <h6>Learn more</h6>
+            </div>
+            <div class="col-md-4 ">
+                <i class="fa fa-phone" aria-hidden="true"></i>
+                <h5>Curbside pickup</h5>
+                <h6>Learn more</h6>
+            </div>
+        </div>
+    </div>
+    <!-- newsletter----------------------------------------------------------------------- -->
+    <div class="row newsletter">
+        <div class="col-md-4">
+            <h3>
+                Join the <br>Sooth family
+            </h3>
+        </div>
+        <div class="col-md-4">
+            <p>Lorem ipsum dolor sit amet, consetetur<br> sadipscing elitr, sed diam nonumy</p>
+        </div>
+        <div class="col-md-4">
+            <input type="text" placeholder=" " name="mail" required>
+            <input type="submit" value="Subscribe">
+        </div>
+    </div>
+    <!-- <footer>------------------------------------------------------------------------------</footer> -->
+    <div class="footer">
+        <div class="row">
+            <div class="col-md-3 newws">
+                <h2>Sooth</h2>
+                <p>Explore our innovative skincare products</p>
+                <input type="text" placeholder="your email.... " name="mail" required>
+                <input type="submit" value="Subscribe">
+            </div>
+            <div class="col-md-9">
+                <div class="col-md-3">
+
+                    <ul>
+                        <li>
+                            <h5>SHOP</h5>
+                        </li>
+                        <li>Lorem ipsum al</li>
+                        <li>Dolar at</li>
+                        <li>Veraotio</li>
+                        <li>Chauloe</li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+
+                    <ul>
+                        <li>
+                            <h5>ABOUT</h5>
+                        </li>
+                        <li>Lorem ipsum al</li>
+                        <li>Dolar at</li>
+                        <li>Veraotio</li>
+                        <li>Chauloe</li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+
+                    <ul>
+                        <li>
+                            <h5>MORE</h5>
+                        </li>
+                        <li>Lorem ipsum al</li>
+                        <li>Dolar at</li>
+                        <li>Veraotio</li>
+                        <li>Chauloe</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <hr class="hr-half">
+        <div class="row">
+            <div class="col-md-6">
+                <h6>SOOTH ALL RIGHTS RESERVED</h6>
+
+                <ul class="terms">
+                    <li>Privacy Policy</li>
+                    <li>Terms of Use</li>
+                    <li>Contact Us</li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <i class="fas fa-facebook" aria-hidden="true"></i>
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-facebook"></i>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+
+
+</body>
+
+</html>
