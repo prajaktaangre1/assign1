@@ -22,9 +22,9 @@
 }
 
 .bgGray {
-    /* background-color:#9eb1b4; */
+     background-color:#e0e3e8; 
     background-image: url("hand.png") !important;
-    background-repeat: initial;
+    background-repeat: no-repeat;
     display: flow-root;
     padding: 10px 20px 30px 40px;
 }
